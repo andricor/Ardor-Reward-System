@@ -19,3 +19,5 @@ All points collected with the myCred plugin will be converted 1 to 1 to the Asse
 The reward is paid according to the schedule defined in the plugin settings page.
 
 The rewards will be transferred at the users only after the "threshold" value (or multiples of it) has been passed. 
+
+Please use with caution. This is a very first release and therefore don't keep too many Ignis in the account controlling the asset.

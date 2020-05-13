@@ -20,4 +20,4 @@ The reward is paid according to the schedule defined in the plugin settings page
 
 The rewards will be transferred at the users only after the "threshold" value (or multiples of it) has been passed. 
 
-Please use with caution. This is a very first release and therefore don't keep too many Ignis in the account controlling the asset.
+Please use with caution. This is a very first release and therefore don't keep too many Ignis in the account controlling the asset. Please also keep in mind that your passphrase is stored in the database in plain text, therefore be careful with who has access to your database.

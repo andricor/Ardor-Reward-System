@@ -40,7 +40,7 @@ if ( is_plugin_active('mycred/mycred.php') && is_plugin_active('buddypress/bp-lo
 	    echo '<p>The Ardor Reward System allows you to reward your users with an Asset on the Ardor Blockchain.<br>
 	            You need a couple of steps before the system is fully functional:<br>
 	            1 - Create an Asset on Ardor blockchain. To know more about it head <a href="https://medium.com/@plumapiedra/how-to-issue-an-asset-on-ardor-in-5-mins-d19e48215bf2" target="_blank">here</a><br>
-	            2 - At the moment the plugin does not allow the dynamic encrease of Asset shares. Will be implemented at a later stage, so make sure you have enough Asset shares to send to your users.<br>
+	            2 - At the moment the plugin does not allow the dynamic increase of Asset shares. Will be implemented at a later stage, so make sure you have enough Asset shares to send to your users.<br>
 	            3 - You need some Ignis in your wallet to pay for the transactions when sending the asset to your users.<br>
 	            4 - 1 point equals 1 asset unit. Therefore create the myCred hooks keeping this in mind.<br>
 	            5 - The Ardor Reward System can be used with Livenet or Testnet. It all depends on the Ardor Node URL. The format of the URL should be <strong>https://testardor.jelurida.com/nxt</strong> (Jelurida testnet node) or <strong>https://node4.ardor.tools/nxt</strong> (MRV Live node). Make sure to add the /nxt at the end.<br></p>';
@@ -91,7 +91,7 @@ if ( is_plugin_active('mycred/mycred.php') && is_plugin_active('buddypress/bp-lo
     }
   
 } else {
-  trigger_error('MyCred must be active for Ardor Reward System to work',E_USER_ERROR);
+  trigger_error('BuddyPress and MyCred plugins must be active for Ardor Reward System to work',E_USER_ERROR);
 }
 
 register_activation_hook( __FILE__, 'ars_create_db' );

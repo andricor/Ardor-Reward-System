@@ -10,7 +10,7 @@
  /**
  * Test if a WordPress plugin is active
  */
- 
+include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 if ( is_plugin_active('mycred/mycred.php') && is_plugin_active('buddypress/bp-loader.php') ) {
     /*include 'options.php';*/
     /** Step 2 (from text above). */
